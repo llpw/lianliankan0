@@ -1,0 +1,107 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -8,
+      "y": -8,
+      "width": 1552,
+      "height": 840,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 361.70001220703125,
+                "type": "panel",
+                "width": 205
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 355.70001220703125,
+                "type": "panel",
+                "width": 205
+              }
+            ],
+            "height": 719.4000244140625,
+            "type": "dock-v",
+            "width": 205
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 451.25,
+                "type": "panel",
+                "width": 1023
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 266.1499938964844,
+                "type": "panel",
+                "width": 1023
+              }
+            ],
+            "height": 719.4000244140625,
+            "type": "dock-v",
+            "width": 1023
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 719.4000244140625,
+            "type": "panel",
+            "width": 304
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "console",
+        "timeline",
+        "inspector",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "sprite-editor": {
+      "x": 702,
+      "y": 240,
+      "width": 516,
+      "height": 539
+    },
+    "node-library": {
+      "x": 802,
+      "y": 250,
+      "width": 316,
+      "height": 519
+    },
+    "package-asset.export": {
+      "x": 560,
+      "y": 140,
+      "width": 420,
+      "height": 545
+    }
+  }
+}

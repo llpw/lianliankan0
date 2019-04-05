@@ -1,0 +1,80 @@
+2019-04-05T03:15:43.170Z - normal: Load ~/.CocosCreator/settings.json
+2019-04-05T03:15:44.265Z - normal: Initializing Asset Database
+2019-04-05T03:15:44.265Z - normal: checking language setting...
+2019-04-05T03:15:44.265Z - normal: Language: zh
+2019-04-05T03:15:44.877Z - success: preview server running at http://localhost:7456
+2019-04-05T03:15:44.877Z - success: protocol editor-framework registered
+2019-04-05T03:15:44.877Z - success: protocol app registered
+2019-04-05T03:15:44.877Z - success: protocol theme registered
+2019-04-05T03:15:44.877Z - success: protocol packages registered
+2019-04-05T03:15:44.877Z - success: protocol uuid registerred
+2019-04-05T03:15:44.877Z - success: protocol db registerred
+2019-04-05T03:15:44.877Z - success: protocol thumbnail registerred
+2019-04-05T03:15:44.877Z - success: protocol unpack registerred
+2019-04-05T03:15:44.877Z - success: protocol disable-commonjs registerred
+2019-04-05T03:15:45.192Z - normal: connected!
+2019-04-05T03:15:45.192Z - normal: Check project C:\Users\lp\Desktop\lianliankan0
+2019-04-05T03:15:45.192Z - normal: Initializing project C:\Users\lp\Desktop\lianliankan0
+2019-04-05T03:15:45.636Z - normal: Initializing Cocos2d
+2019-04-05T03:15:46.372Z - normal: Initializing engine extends
+2019-04-05T03:15:46.389Z - success: asset-db-debugger loaded
+2019-04-05T03:15:46.389Z - success: baidu-adapter loaded
+2019-04-05T03:15:46.389Z - success: code-editor loaded
+2019-04-05T03:15:46.389Z - success: color-picker loaded
+2019-04-05T03:15:46.467Z - success: fb-audience-network loaded
+2019-04-05T03:15:46.514Z - success: fb-live-stream loaded
+2019-04-05T03:15:46.530Z - success: google-play-instant loaded
+2019-04-05T03:15:46.530Z - success: huawei-runtime loaded
+2019-04-05T03:15:46.530Z - success: jsb-adapter loaded
+2019-04-05T03:15:46.530Z - success: oppo-runtime loaded
+2019-04-05T03:15:46.530Z - success: package-manager loaded
+2019-04-05T03:15:46.656Z - success: qqplay-adapter loaded
+2019-04-05T03:15:46.656Z - success: runtime-dev-tools loaded
+2019-04-05T03:15:46.672Z - success: sdkbox loaded
+2019-04-05T03:15:46.672Z - success: tester loaded
+2019-04-05T03:15:46.672Z - success: ui-grid loaded
+2019-04-05T03:15:46.672Z - success: ui-kit-preview-extra loaded
+2019-04-05T03:15:46.672Z - success: ui-kit-preview loaded
+2019-04-05T03:15:46.672Z - success: ui-kit loaded
+2019-04-05T03:15:46.672Z - success: ui-tree loaded
+2019-04-05T03:15:46.687Z - success: vivo-runtime loaded
+2019-04-05T03:15:46.687Z - success: weapp-adapter loaded
+2019-04-05T03:15:46.718Z - success: assets loaded
+2019-04-05T03:15:46.718Z - success: builder loaded
+2019-04-05T03:15:46.970Z - success: cocos-services loaded
+2019-04-05T03:15:46.970Z - success: console loaded
+2019-04-05T03:15:47.001Z - success: fb-instant-games loaded
+2019-04-05T03:15:47.017Z - success: google-instant-games loaded
+2019-04-05T03:15:47.017Z - success: hierarchy loaded
+2019-04-05T03:15:47.017Z - success: inspector loaded
+2019-04-05T03:15:47.017Z - success: keystore loaded
+2019-04-05T03:15:47.017Z - success: node-library loaded
+2019-04-05T03:15:47.032Z - success: package-asset loaded
+2019-04-05T03:15:47.032Z - success: preferences loaded
+2019-04-05T03:15:47.032Z - success: project-exporter loaded
+2019-04-05T03:15:47.032Z - success: project-importer loaded
+2019-04-05T03:15:47.032Z - success: project-settings loaded
+2019-04-05T03:15:47.032Z - success: scene loaded
+2019-04-05T03:15:47.032Z - success: simulator-debugger loaded
+2019-04-05T03:15:47.032Z - success: sprite-editor loaded
+2019-04-05T03:15:47.048Z - success: store loaded
+2019-04-05T03:15:47.048Z - success: timeline loaded
+2019-04-05T03:15:48.881Z - info: Cocos Services load base data!
+2019-04-05T03:15:49.081Z - normal: Loading packages
+2019-04-05T03:15:49.097Z - normal: Watching packages
+2019-04-05T03:15:49.504Z - normal: Run Application
+2019-04-05T04:33:26.544Z - error: TypeError: Cannot read property 'fontDefDictionary' of null
+    at Object._updateProperties (I:\cocosCreator\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\renderer\utils\label\bmfont.js:138:46)
+    at Object.updateRenderData (I:\cocosCreator\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\renderer\utils\label\bmfont.js:120:22)
+    at onBMFontTextureLoaded (I:\cocosCreator\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCLabel.js:360:64)
+    at cc_Label._applyFontTexture (I:\cocosCreator\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCLabel.js:364:25)
+    at cc_Label.set (I:\cocosCreator\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\components\CCLabel.js:195:30)
+    at cc_Label.n.set [as font] (I:\cocosCreator\CocosCreator\resources\app.asar\editor\page\scene-utils\lib\asset-watcher.js:1:782)
+    at I:\cocosCreator\CocosCreator\resources\app.asar\editor\page\scene-utils\set-property-by-path.js:1:612
+    at CCLoader.<anonymous> (I:\cocosCreator\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCAssetLibrary.js:64:25)
+    at I:\cocosCreator\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\load-pipeline\CCLoader.js:139:46
+    at I:\cocosCreator\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\utils.js:49:25
+2019-04-05T05:58:01.262Z - warn: The Asset used by component "cc.Label" is missing. Detailed information:
+Node path: "New Label"
+Missing uuid: "50e5a0f7-9208-4f40-a32b-dc452345ca88"
+
